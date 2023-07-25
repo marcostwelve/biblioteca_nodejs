@@ -1,0 +1,28 @@
+ Outros exemplos de códigos que possam ser utilizados
+
+ /*
+    funções callback, são funções que recebem funções como parâmetros
+    Quando estamos falando de promessa em JS, estamos falando de código assíncrono
+    Utilizamos .then, ou async e await para trabalhar com promessas
+    Async e await sempre trabalham com funções
+    Await é sempre utilizado em todos os trechos de códigos, omde tem que aguardar uma promessa, ou algo ser processado etc.
+*/
+
+// promisses com then
+// function pegaArquivo(caminhoDoArquivo) {
+//     const enconding = 'uft-8';
+//     fs.promises.readFile(caminhoDoArquivo, enconding)
+//         .then((texto) => console.log(chalk.green(texto)))
+//         .catch(trataErro)
+// }
+
+// function pegaArquivo(caminhoDoArquivo) {
+//     const enconding = "utf-8";
+//     fs.readFile(caminhoDoArquivo, enconding, (erro, texto) => { // Quando não utilizamos o parâmetro, em JS podemos colocar underline no lugar
+//         if(erro) {
+//             trataErro(erro);
+//         }
+
+//         console.log(chalk.green(texto));
+//     });
+// }
